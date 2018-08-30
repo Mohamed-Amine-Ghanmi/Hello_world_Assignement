@@ -35,7 +35,7 @@ pipeline {
             when { expression { params.env == 'build' } }
             steps {
                 script {
-                   userInput = input(id: 'userInput', message: 'Merge to Test?',
+                   userInput = input(id: 'userInput', message: 'Merge to Dev?',
                    parameters: [[$class: 'ChoiceParameterDefinition', defaultValue: 'strDef', 
                        description:'describing choices', name:'TestChoice', choices: "dev\ntest\ndemo\nproduction\nfinish"]
                     ])
