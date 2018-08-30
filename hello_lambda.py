@@ -6,4 +6,4 @@ def post_handler(event, context):
     if "query" in event:
         if "name" in event['query']:
             name = event['query']['name']
-    return { "message": "Hello " +name+ " World!"  }
+    return { "message": "Hellooooo " +name+ " Team Boeing!"  }
