@@ -1,6 +1,8 @@
 # Hello_world_Assignement
 
-Youtube Video: https://youtu.be/XOmeEU1L4Cc
+Youtube Video: 
+Part 1: https://youtu.be/XOmeEU1L4Cc
+Part 2: https://youtu.be/OCgIGtnIw7M
 
 - sudo apt install python
 - curl -O https://bootstrap.pypa.io/get-pip.py
